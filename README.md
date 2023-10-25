@@ -1,6 +1,10 @@
-# FeXIII-coronal-density
+# FeXIII-coronal-density 
 
-Small notebook to infer FE XIII coronal densities using a chinati look-up table.
+Small notebooks to infer FE XIII coronal densities using a chinati look-up table.
+Separate versions exist for:
+
+1. DKIST Cryo-NIRSP or DL-NIRSP
+2. MLSO CoMP/uCoMP
 
 Contact: Alin Paraschiv, NSO arparaschiv at nso edu
 
