@@ -12,7 +12,7 @@ uCoMP/CoMP data can be downloaded from [MLSO](https://mlso.hao.ucar.edu/mlso_dat
 
 Cryo-NIRSP or DL-NIRSP data can be downloaded from the [DKIST Datacenter](https://dkist.data.nso.edu/).
 
-Some sample data that can be downloaded and unarchived directly into your repository clone that enables running the example notebooks [can be found here](https://www.dropbox.com/scl/fi/b5flnx7jkyo2rb561cg8p/FeXIII-coronal-density_sampledata.tar.gz?rlkey=g7cawm4m1wzn3hkri04u1xkrw&dl=0). 
+Some sample data that can be downloaded and unarchived directly into your repository clone that enables running the example notebooks [can be found here](https://www.dropbox.com/scl/fi/b5flnx7jkyo2rb561cg8p/FeXIII-coronal-density_sampledata.tar.gz?rlkey=g7cawm4m1wzn3hkri04u1xkrw&dl=1). 
 
 ### **Notes:**
 - This functionality is included in the CLEDB coronal inversion. This repository provides a standalone method for computing coronal densities only.
