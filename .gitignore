@@ -130,3 +130,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+## IDL save files
+.sav
+
+## fits data
+/CoMP-20120327/
+/uCoMP-20220225/
