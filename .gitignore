@@ -136,3 +136,7 @@ dmypy.json
 ## fits data
 /CoMP-20120327/
 /uCoMP-20220225/
+/Cryo-NIRSP-20231011/
+
+##sample data archive
+FeXIII-coronal-density-sampledata.tar.gz

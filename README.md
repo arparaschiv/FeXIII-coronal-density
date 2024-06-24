@@ -10,7 +10,7 @@ Two small example notebooks that can be used to infer FE XIII coronal densities 
 
 #### **Sample data download:**
 
-Some sample data that can be downloaded and unarchived directly into your repository clone will enable running the example notebooks [can be found here](https://www.dropbox.com/scl/fi/b5flnx7jkyo2rb561cg8p/FeXIII-coronal-density_sampledata.tar.gz?rlkey=g7cawm4m1wzn3hkri04u1xkrw&dl=1). 
+Some sample data that can be downloaded and unarchived directly into your repository clone will enable running the example notebooks [can be found here](https://www.dropbox.com/scl/fi/5bsxff1hr1d8vc8xgxhah/FeXIII-coronal-density-sampledata.tar.gz?rlkey=ziyr5zhhdcymea4359dkepki6&dl=1). 
 
 uCoMP/CoMP data can be downloaded from [MLSO](https://mlso.hao.ucar.edu/mlso_data_calendar.php?calinst=ucomp).
 
