@@ -1,7 +1,7 @@
 # FeXIII-coronal-density 
 
 #### **Main Aim:** 
-Two small example notebooks that can be used to infer FE XIII coronal densities using a Chianti calculation look-up table. Target lines are the infrared Fe XIII 1074.6nm and 1079.8nm pair. 
+Two small example notebooks that can be used to infer FE XIII coronal densities using a CHIANTI calculation look-up table. Target lines are the infrared Fe XIII 1074.7nm and 1079.8nm pair. 
 
 #### **Two notebooks particularized for distinct data types/sources exist for:**
 
@@ -17,10 +17,10 @@ uCoMP/CoMP data can be downloaded from [MLSO](https://mlso.hao.ucar.edu/mlso_dat
 Cryo-NIRSP or DL-NIRSP data can be downloaded from the [DKIST Datacenter](https://dkist.data.nso.edu/).
 
 #### **Notes, Assumptions, and Caveats:**
-- Coronal density calculations similar to this implementation are available through the [CLEDB  coronal inversion](https://github.com/arparaschiv/solar-coronal-inversion). This repository prodides a straigthforward and standalone implementation for computing coronal densities.
+- Coronal density calculations similar to this implementation are available through the [CLEDB  coronal inversion](https://github.com/arparaschiv/solar-coronal-inversion). This repository provides a straightforward and standalone implementation for computing coronal densities.
 - Spatio-temporal matching observations in both Fe XIII infrared lines are required.  
-- Examples offer a parallel cpu implementation making calculations rasonably fast.
-- Options for processing either peak line emission or integrated line emission exist for spectroscopic instruments.
+- Examples offer a parallel/multithread cpu implementation, making calculations reasonably fast.
+- Options for processing either peak line emission or integrated line emission exist for all instruments.
 - Accurate header and pointing information from the data providers are required.
 - Currently, a high-resolution look-up table is provided in this repository. The table is created using [CHIANTI V10.1](https://download.chiantidatabase.org/CHIANTI_10.1_database.tar.gz) through a [PyCELP](https://github.com/tschad/pycelp) implementation.
 - A PyCELP look-up table generator notebook is also provided, but a user should not generate new look-up tables unless a specific need exists. The provided tables are flexible enough to suit most needs.
