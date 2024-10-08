@@ -13,14 +13,14 @@ Two small example notebooks that can be used to infer FE XIII coronal densities 
 
 #### **Sample data download:**
 
-Some sample data that can be downloaded and unarchived directly into your repository clone will enable running the example notebooks [can be found here](https://www.dropbox.com/scl/fi/5bsxff1hr1d8vc8xgxhah/FeXIII-coronal-density-sampledata.tar.gz?rlkey=ziyr5zhhdcymea4359dkepki6&dl=1). 
+Some sample data that can be downloaded and unarchived directly into your repository clone will enable running the example notebooks [can be found here](https://drive.google.com/file/d/1I0vn7tJaMn4EU_RK3b1YxMYpPmiUZsue/view?usp=drive_link). 
 
 uCoMP/CoMP data can be downloaded from [MLSO](https://mlso.hao.ucar.edu/mlso_data_calendar.php?calinst=ucomp).
 
 Cryo-NIRSP or DL-NIRSP data can be downloaded from the [DKIST Datacenter](https://dkist.data.nso.edu/).
 
 #### **Notes, Assumptions, and Caveats:**
-- Coronal density calculations similar to this implementation are available through the [CLEDB  coronal inversion](https://github.com/arparaschiv/solar-coronal-inversion).
+- This implementation is a standalone coronal density calculations that are implemented and available through the [CLEDB coronal inversion](https://github.com/arparaschiv/solar-coronal-inversion).
 - Spatio-temporal matching observations in both Fe XIII infrared lines are required.
 - The LOS integration assumption exists. Users should be very careful when interpreting their coronal signals as they get integrated along the LOS. This approach is valid only in spaces where a dominant coherent structure exists. A superposition of structures along the LOS is not adequately represented in terms of density computed via this method.
 - Examples offer a parallel/multithread cpu implementation, making calculations reasonably fast.
@@ -38,3 +38,4 @@ This implementation benefits and uses published results from:
 
 1. [Paraschiv & Judge, SolPhys, 2022](https://ui.adsabs.harvard.edu/abs/2022SoPh..297...63P/abstract) 
 2. [Schad & Dima, SolPhys, 2020](https://ui.adsabs.harvard.edu/abs/2020SoPh..295...98S/abstract)
+3. [Del Zanna, G., et. al, ApJ, 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...909...38D)
