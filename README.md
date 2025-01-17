@@ -22,10 +22,10 @@ Cryo-NIRSP or DL-NIRSP data can be downloaded from the [DKIST Datacenter](https:
 #### **Notes, Assumptions, and Caveats:**
 - This implementation is a standalone coronal density calculations that are implemented and available through the [CLEDB coronal inversion](https://github.com/arparaschiv/solar-coronal-inversion).
 - Spatio-temporal matching observations in both Fe XIII infrared lines are required.
-- The LOS integration assumption exists. Users should be very careful when interpreting their coronal signals as they get integrated along the LOS. This approach is valid only in spaces where a dominant coherent structure exists. A superposition of structures along the LOS is not adequately represented in terms of density computed via this method.
+- **The LOS integration assumption exists.** Users should be very careful when interpreting their coronal signals as they get integrated along the LOS. This approach is valid only in spaces where a dominant coherent structure exists. A superposition of structures along the LOS is not adequately represented in terms of density computed via this method.
 - Examples offer a parallel/multithread cpu implementation, making calculations reasonably fast.
 - Options for processing either peak line emission or integrated line emission exist for all instruments.
-- Accurate header and pointing information from the data providers are required.
+- Accurate header and pointing information from the data providers are required. **Currently, the DKIST Cryo-NIRSP .asfd metadata has known bugs. Please be mindful of pointing, and recreate a more feasible spatial coordinate matching.**
 - Currently, a high-resolution look-up table is provided in this repository. The table is created using [CHIANTI V10.1](https://download.chiantidatabase.org/CHIANTI_10.1_database.tar.gz) through a [PyCELP](https://github.com/tschad/pycelp) implementation.
 - A PyCELP generated look-up table generator notebook is also provided. Users should not generate new look-up tables unless a specific need exists. The provided tables are flexible enough to suit most needs.
 - A lower parameter space resolution deprecated look-up table created via a [SSWIDL](https://www.mssl.ucl.ac.uk/surf/sswdoc/solarsoft/ssw_setup.html) CHIANTI implementation still exists, but this is deprecated and should only be used for cross-validating calculations, and not for production runs. 
