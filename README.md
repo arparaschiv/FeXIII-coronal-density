@@ -15,7 +15,7 @@ Apply one of the two schemes detailed below from this main folder inside your (a
 pin install .
 ```
 
-a. Eon-editable install inside the current (anaconda) environment. 
+a. Non-editable install inside the current (anaconda) environment. 
 
 
 Note that any changed to the functions will require a reinstall.
