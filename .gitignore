@@ -131,7 +131,7 @@ dmypy.json
 .pyre/
 
 ## IDL save files
-.sav
+#.sav
 
 ## fits data
 /CoMP-20120327/

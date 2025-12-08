@@ -6,6 +6,25 @@ This repository provides a straightforward and standalone implementation for com
 
 Two small example notebooks that can be used to infer FE XIII coronal densities using a CHIANTI calculation look-up table. Target lines are the infrared Fe XIII 1074.7nm and 1079.8nm pair. 
 
+#### **Install instructions**
+The modules can be directly imported in this working directory from the *dens.py* file.
+
+If desired, setup schemes are provided for static and editable installs, such that these modules can be imported from any other directory in the same (anaconda) python environment.
+Apply one of the two schemes detailed below from this main folder inside your (anaconda) environment.
+```
+pin install .
+```
+
+a. Eon-editable install inside the current (anaconda) environment. 
+
+
+Note that any changed to the functions will require a reinstall.
+
+b. Editable install (the *dens.py* script is linked to the environment but remains in this directory and is fully editable and reimportable).
+```
+pip install -e .
+```
+
 #### **Two notebooks particularized for distinct data types/sources exist for:**
 
 1. NSO's DKIST Cryo-NIRSP or DL-NIRSP slit and imaging spectro-polarimeters

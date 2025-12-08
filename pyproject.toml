@@ -1,0 +1,12 @@
+[project]
+name = "dens"
+version = "0.0.1"
+dependencies = ["numpy","scipy","datetime","tqdm"]
+description = "Density computation utilities"
+authors = [{name = "Alin Paraschiv"}]
+readme = "README.md"
+license = "LICENSE"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+py-modules=["dens"]
