@@ -32,7 +32,7 @@ pip install -e .
 
 #### **Sample data download:**
 
-Some sample data that can be downloaded and unarchived directly into your repository clone will enable running the example notebooks [can be found here](https://drive.google.com/file/d/1I0vn7tJaMn4EU_RK3b1YxMYpPmiUZsue/view?usp=drive_link). 
+Some sample data that can be downloaded and unarchived directly into your repository clone will enable running the example notebooks [can be found here](https://drive.google.com/file/d/1MwgrIew7wsgLIYS6NBUdMQIUTY3Nab0r/view?usp=sharing). 
 
 uCoMP/CoMP data can be downloaded from [MLSO](https://mlso.hao.ucar.edu/mlso_data_calendar.php?calinst=ucomp).
 
@@ -45,11 +45,11 @@ Cryo-NIRSP or DL-NIRSP data can be downloaded from the [DKIST Datacenter](https:
 - Examples offer a parallel/multithread cpu implementation, making calculations reasonably fast.
 - Options for processing either peak line emission or integrated line emission exist for all instruments.
 - Accurate header and pointing information from the data providers are required. **Currently, the DKIST Cryo-NIRSP .asfd metadata has known bugs. Please be mindful of pointing, and recreate a more feasible spatial coordinate matching.**
-- Currently, a high-resolution look-up table is provided in this repository. The table is created using [CHIANTI V10.1](https://download.chiantidatabase.org/CHIANTI_10.1_database.tar.gz) through a [PyCELP](https://github.com/tschad/pycelp) implementation.
+- Currently, a high-resolution look-up table is provided in this repository. The table is created using [CHIANTI V11.0.2](https://download.chiantidatabase.org/CHIANTI_10.1_database.tar.gz) through a [PyCELP](https://github.com/tschad/pycelp) implementation.
 - A PyCELP generated look-up table generator notebook is also provided. Users should not generate new look-up tables unless a specific need exists. The provided tables are flexible enough to suit most needs.
-- A lower parameter space resolution deprecated look-up table created via a [SSWIDL](https://www.mssl.ucl.ac.uk/surf/sswdoc/solarsoft/ssw_setup.html) CHIANTI implementation still exists, but this is deprecated and should only be used for cross-validating calculations, and not for production runs. 
+- A lower parameter space resolution deprecated look-up table created via a [SSWIDL](https://www.mssl.ucl.ac.uk/surf/sswdoc/solarsoft/ssw_setup.html) CHIANTI implementation still exists, but this should only be used for cross-validating calculations, and not for production runs. 
 
-#### **Contact:** Alin Paraschiv, NSO  -- arparaschiv at nso edu
+#### **Contact:** Alin Paraschiv
 
 #### **Acknowledgements/Credits**
 
